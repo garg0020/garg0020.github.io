@@ -1,0 +1,41 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkslategray;
+    font-size: 18px;
+}
+
+footer {
+    background:#7798AB;
+}
+
+/* Selecting id value for styling the element */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+ }
+
+ /* Selecting class value for styling the site heading */
+ .site-title {
+     color:#40376E;
+ }
+
+ article li:nth-child(odd) {
+     background:#AA8F66;
+ }
+
+ nav ul {
+     list-style: none;
+ }
+
+ nav ul a {
+     text-decoration: none;
+     background:#61C9A8 ;
+ }
+ 
+ nav ul a  {
+     border: 1px groove black;
+ } 
+
+ nav ul a:hover,
+ nav ul a:focus {
+     background:#DA627D;
+ }
