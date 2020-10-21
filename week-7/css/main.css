@@ -43,9 +43,12 @@ nav ul li {
     width: 49%;
     padding: 1em;
     box-sizing: border-box;
+    border-right: 1px solid white;
 }
 
-
+nav ul li:last-child {
+    border: none;
+}
  nav ul a{
      display: block;
      color: darkslategrey;
