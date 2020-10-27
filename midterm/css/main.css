@@ -3,3 +3,71 @@ body {
     background-color: #aad4cf;
 }
 
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #d4e9e7;
+}
+
+#site-title {
+    color: white;
+    margin-top: -145px;
+    position: absolute;
+    margin-left: 368px;
+    font-size: 3.2rem;
+    font-weight: lighter;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding: 0em;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    font-weight: lighter;
+    font-size: 1.2rem;
+
+}
+
+nav ul li:last-child {
+    border: none;
+}
+nav ul a:hover,
+ nav ul a:focus {
+     background:lightgrey;
+     padding: .5em 1em .5em 1em;
+ }
+
+ nav ul a{
+     text-decoration: none;
+     color: black;
+ }
+
+ .site-footer {
+
+ }
+ 
+ article, aside, section {
+    padding-left: .5rem;
+    padding-right: 1rem;
+ }
+
+ .textwrap {
+     float: left;
+     margin-right: 15px;
+     margin-bottom: 18px;
+ }
+
+ ul {
+    padding-left: 1rem;
+ }
+
+ h3 {
+   font-size: 1.5em;  
+ }
