@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <title>Lone Starfish</title>
     <link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
     <div class="container">
+        <button id="back-to-top-btn"><a href="#back-to-top"><i class="fas fa-angle-double-up"></i></a></button>
     <header>
         <img id="main-image" src="images/lone-starfish-wide.jpg" alt="image of lone-starfish-wide">
         <h1 id="site-title">Lone Starfish</h1>
@@ -57,6 +59,7 @@
     </aside>
     <section>
         <h3>Contact To learn More</h3>
+        <div class="box">
         <a name="Contact"></a>
         <form action="thanks.html" method="post"></form>
         <div>
@@ -64,15 +67,15 @@
                    <input type="text" id="fullname" name="fullname">
         </div>
         <div>
-            <label for="youremail">Email</label>
+            <label for="youremail">Your Email</label>
                    <input type="email" id="youremail" name="youremail" required>
         </div>
         <div>
-            <label for="message">Message</label>
+            <label for="message">Your Message</label>
             <textarea name="message" id="message"></textarea>
         </div>
         <div>
-            <h3>Would you like to visit the starfish?</h3>
+            <h4>Would you like to visit the starfish?</h4>
             <label for="yes">Yes</label>
             <input type="radio" id="yes" name="past">
             <label for="no">No</label>
@@ -80,11 +83,13 @@
             <label for="maybe">Maybe</label>
             <input type="radio" id="maybe" name="past">
         </div>
-        <button type="submit">Send</button>
+        <button type="submit">SEND</button>
+    </div>
     </section>
     <footer class="site-footer">
-        Copyright &copy; Lone Starfish.
+     &copy; Lone Starfish.
     </footer>
     </div>
+    <script src="javascript/style.js">
     </body>
 </html>
