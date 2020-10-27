@@ -12,7 +12,7 @@ body {
 
 #site-title {
     color: white;
-    margin-top: -140px;
+    margin-top: -145px;
     position: absolute;
     margin-left: 360px;
     font-size: 3.2rem;
@@ -30,8 +30,8 @@ nav ul li {
     padding: .5em;
     box-sizing: border-box;
     border-right: 1px solid black;
-    font-weight: normal;
-    font-size: 1.2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
     margin:-30px auto 0px auto;
 }
 
@@ -41,7 +41,7 @@ nav ul li:last-child {
 nav ul a:hover,
  nav ul a:focus {
      background:black;
-     padding: .5em 1em .5em 1em;
+     padding: .4em 1.4em .4em 1.4em;
      color: white;
  }
 
@@ -69,28 +69,19 @@ nav ul a:hover,
    font-size: 1.5em;  
  }
 
- #back-to-top-btn {
-    display: none;
-    position: fixed;
-     bottom: 20px;
+ .cd-top {
+     float: right;
+     scroll-behavior: smooth;
+     position: absolute;
      right: 20px;
-     font-size: 26px;
-     width: 50px;
-     height: 50px;
-     background-color: #fff;
-     color: #333;
+     font-size: 24px;
      cursor: pointer;
-     outline: none;
-     border: 3px solid #333;
-     border-radius: 50%;
-     transition-duration: 0.2s;
-     transition-timing-function: ease-in-out;
-     transition-property: background-color, color;
+     display: block;
+     margin-top: -5%;
  }
 
- #back-to-top-btn:hover, #back-to-top-btn:focus, #back-to-top-btn:active {
-     background-color: #333;
-     color: #fff;
+ .cd-top a {
+     color: black;
  }
 
  input[type=text], select, textarea {
