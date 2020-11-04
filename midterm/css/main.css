@@ -4,13 +4,14 @@ body {
     margin-top: 0px;
 }
 
-
+/* Making a box around the content so that we can make the content stay in center  */
 .container {
     max-width: 1024px;
     margin: 0 auto;
     background: #d4e9e7;
 }
 
+/* Placing header text above the header image  */
 #site-title {
     color: white;
     margin-top: -145px;
@@ -23,29 +24,25 @@ body {
 nav ul{
     list-style: none;
     width: 100%;
-    padding-inline-start: 0px;
-
 }
 
 nav ul li {
     display: inline-block;
-    width: 30.4%;
+    width: 285px;
     text-align: center;
-    padding: 12px;
     border-right: 1px solid black;
     font-weight: bold;
     font-size: 1.4rem;
-    margin:-30px auto 0px auto;
 }
 
 nav ul li:last-child {
     border: none;
+    width:38%;
 }
 nav ul a:hover,
  nav ul a:focus {
      background:black;
-     padding-top: .8rem;
-     padding-bottom: .5rem;
+     display: block;
      color: white;
  }
 
@@ -54,11 +51,13 @@ nav ul a:hover,
      color: black;
  }
  
+ /* Giving a padding to the content so that we can have space in left and right */
  article, aside, section {
     padding-left: .5rem;
     padding-right: 1rem;
  }
 
+ /* Making the text wrap around the image */
  .textwrap {
      float: left;
      margin-right: 15px;
@@ -66,13 +65,15 @@ nav ul a:hover,
  }
 
  ul {
-    padding-left: 1rem;
+    padding-left: 0;
  }
 
+ /* Increasing the size of h3 */
  h3 {
    font-size: 1.5em;  
  }
 
+ /* Position the back to top button to the right of the site  */
  .cd-top {
      float: right;
      scroll-behavior: smooth;
@@ -88,15 +89,16 @@ nav ul a:hover,
      color: black;
  }
 
+ /* Making the contact form to align to the left  */
  input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Making sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
 }
 
 /* Style the submit button with a specific background color etc */
@@ -115,14 +117,14 @@ input[type=submit]:hover {
 }
 
 input[type=email] {
-    width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Making sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
 .box {
