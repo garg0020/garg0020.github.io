@@ -60,6 +60,8 @@ html {
 body {
 	line-height: 1.5;
 }
+
+
 *,
 *::after
 *::before {
@@ -208,8 +210,6 @@ p {
 	html {
 		font-size: 16px;
 	}
-}
-
 .mobile-logo {
 	display: none;
 }
@@ -226,6 +226,20 @@ p {
 	color: white;
 }
 
+/* Navigation */
+.nav-list {
+	display: flex;
+}
+.nav-list li {
+	flex: 1;
+	border: none;
+	border-right: 1px solid gray;
+}
+
+.nav-list li:last-child {
+	border: none;
+}
+
 /* app section */
 .app img {
 	width: 40%;
@@ -235,4 +249,10 @@ p {
 
 .app .btn {
 	float: right;
+}
+}
+@media screen and (min-width: 800px) {
+	.actions-list li {
+		max-width: 20%;
+	}
 }
