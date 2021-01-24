@@ -1,3 +1,83 @@
+/*
+#c78c06, #ffe6ac, #222 and white
+*/
+
+/*---------- CSS RESET ----------*/
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 15px;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    font-family: Open Sans;
+    
+}
+
+body{
+    overflow-x: hidden;
+}
+/*----- HEADINGS -----*/
+h2{
+    font-size: 35px;
+    font-weight: bolder;
+    margin:20px 0;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    line-height: 60px;
+    margin-bottom:20px;
+    margin-top: 20px;
+}
+h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*----- PARAGRAPH -----*/
+p{
+    font-size: 11px;
+}
+
+/*---------- Navigation Bar Section ----------*/
+
+
 #nav {
-    background-color: blue !important;
+    background-color: #3F403F !important;
+    padding: 0px 0px 0px 0px !important;
+    border: none !important;
+    width: auto !important;
+    height: 200px;
+}
+
+#nav a {
+    display: block;
+    color: white;
+    padding: 18px 0px;
+    font-weight: 400;
+    margin: 5px 0px !important;
+}
+
+/* Navigation Link Active or Hover */
+
+#nav a:hover , nav .active {
+    color: white;
+    background-color: #9FB8AD;
+}
+
+.nav .nav-link {
+   margin: 0px 0 0px 0px !important;
+}
+
+/*---------- Home Section ----------*/
+
+#home {
+    background-color: #AB8476 !important;
+}
+
+h1 {
+
 }
