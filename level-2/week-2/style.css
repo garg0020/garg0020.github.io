@@ -82,8 +82,8 @@ p{
 }
 
 section.home h1 {
-font-size: 3em !important;
-margin-top: -50px;
+    font-size: 3em !important;
+    margin-top: -50px;
 }
 
 section.home p {
@@ -99,15 +99,15 @@ section#about h2 {
     margin-top: -80px;
     }
 
-    #about{
-        margin-top: 10px;
-        background-color: #153243 !important;
-        padding: 100px 5px !important;
+ #about{
+    margin-top: 10px;
+    background-color: #153243 !important;
+    padding: 100px 5px !important;
     }
 
-    .about-image {
-        width: 150px !important;
-        height: 150px;
+.about-image {
+    width: 150px !important;
+    height: 150px;
     }
 
 .about p  {
