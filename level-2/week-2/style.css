@@ -92,6 +92,8 @@ section.home p {
     color: white;
 }
 
+/*---------- About Section ----------*/
+
 section#about h2 {
     font-size: 2em !important;
     margin-top: -80px;
@@ -112,6 +114,8 @@ section#about h2 {
     padding: 10px;
     font-size: 1rem;
 }
+
+/*---------- Contact Section ----------*/
 
 #contact {
     padding: 10px 0px !important;
