@@ -163,3 +163,43 @@ footer {
 footer p {
     text-align: center;
 }
+
+@media (min-width: 760px){
+    /*----- Universal -----*/
+
+#main {        
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+/*----- Navigation Bar Section -----*/
+
+#nav {
+    padding: 10px 0px;
+    height: 100px;
+}
+
+#nav a {
+    display: inline-block;
+    width: 300px;
+    margin: 20px 0px !important;
+}
+
+
+.about-image {
+    margin-left: 20px;
+}
+
+.about  p {
+    font-size: 1.50rem !important;
+}
+
+.about h2 {
+    margin-bottom: 50px;
+}
+
+.contact-form {
+    width: 900px !important;
+    margin-bottom: 5px !important;
+}
+}
