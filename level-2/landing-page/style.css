@@ -27,7 +27,7 @@ html, body{
 
     background-color: #f7f7ff;
 
-    min-height: 95vh;
+    min-height: 716.3px;
 }
 
 /*---------- Navigation ----------*/
@@ -279,11 +279,7 @@ html, body{
     }
 
 }
-@media screen and (max-width: 1228px){
 
-    
-
-}
 @media screen and (max-width: 1228px){
 
     .hero{
