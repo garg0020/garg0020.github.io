@@ -24,9 +24,7 @@ html, body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
     background-color: #f7f7ff;
-
     min-height: 716.3px;
 }
 
@@ -44,7 +42,6 @@ html, body{
 
 .hero-area{
     flex-grow: 1;
-
     background:  url(images/bg-image/scooter.svg);
     background-repeat: no-repeat;
     background-size: 42.5%;
@@ -56,7 +53,6 @@ html, body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
     padding: 8rem 0;
 }
 
@@ -68,26 +64,20 @@ html, body{
     font-size: 8rem;
     font-weight: 800;
     margin-bottom: 2.5rem;
-
     color: #333131;
 }
 
 .cta-text_tagline{
     font-size: 2.4rem;
     font-weight: 400;
-
     color: #333131;
 }
 
 .cta-form{
     background-color: #ffffff;
-
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
-
     max-width: 53.5rem;
-
     padding: 3.7rem 5rem;
-
     border-radius: 2.6rem;
     -webkit-border-radius: 2.6rem;
     -moz-border-radius: 2.6rem;
@@ -98,7 +88,6 @@ html, body{
 .cta-form_heading{
     font-size: 4rem;
     font-weight: 700;
-    
     margin-bottom: 1rem;
 }
 
@@ -115,17 +104,13 @@ html, body{
 .cta-form_form-input[type="email"],
 .cta-form_form-input[type="number"]{
     background-color: #f4f4f5;
-    
     width: 100%;
     padding: 1.7rem 2.1rem;
-    
     font-size: 1.8rem;
     color: #9b9b9b;
     letter-spacing: 1px;
-    
     outline: none;
     border: none;
-    
     border-radius: 1.1rem ;
     -webkit-border-radius: 1.1rem ;
     -moz-border-radius: 1.1rem ;
@@ -137,11 +122,9 @@ html, body{
     height: 2.5rem;
     width: 2.5rem;
     border-color: #333131;
-
     vertical-align: middle; 
     position: relative; 
     bottom: 3px;
-
     margin-right: 5px;
 }
 
@@ -157,17 +140,13 @@ html, body{
 .form-submit{
     display: block;
     width: 100%;
-    
     border-radius: 1.1rem;
     border: none;
     padding: 1rem 0;
-   
     text-transform: uppercase;
     font-weight: 600;
     font-size: 3.2rem;
-    
     background-color: #57EEAB;
-    
     -webkit-border-radius: 1.1rem;
     -moz-border-radius: 1.1rem;
     -ms-border-radius: 1.1rem;
@@ -182,7 +161,6 @@ html, body{
 
 .cta-form_check-status .link{
     text-decoration: none;
-
     font-size: 1.6rem;
     color: #FF8480;
 }
@@ -204,12 +182,11 @@ html, body{
 
 .footer-form_heading{
     font-size: 1.8rem;
-
     margin-bottom: 1rem;
 }
+
 .footer-form_tagline{
     font-size: 1.6rem;
-
     margin-bottom: 1rem;
 }
 
@@ -221,7 +198,6 @@ html, body{
 .footer-form_input[type="text"],
 .footer-form_input[type="number"]{
     font-size: 1.6rem;
-
     margin-right: 1rem;
     padding: 1rem;
     border: none;
@@ -233,22 +209,22 @@ html, body{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 .footer-form_input[type="number"]{
     width: 12.2rem;
 }
+
 .footer-form_input[type="text"]{
     width: 26rem;
 }
 
 .footer-form_submit{
-    flex-grow: 1;
-    
+    flex-grow: 1;    
     background-color: #FF8480;
     color:#f7f7ff;
     font-size: 2.4rem;
     font-weight: 600;
     text-transform: uppercase;
-    
     padding: 0.5rem 2.6rem;
     border: none;
     border-radius: 1rem;
@@ -262,6 +238,7 @@ html, body{
     height: 3rem;
     width: 3rem;
 }
+
 .footer-social a:not(:last-of-type){
     margin-right: 4.5rem;
 }
@@ -360,12 +337,15 @@ html, body{
         font-size: 1.6rem;
         padding: 1rem;
     }
+
     .checkbox-text{
         font-size: 1.6rem;
     }
+
     .form-submit{
         font-size: 2.4rem;
     }
+
     .cta-form_check-status{
         font-size: 1.4rem;
     }
@@ -373,6 +353,7 @@ html, body{
     .footer-form_form {
         flex-wrap: wrap;
     }
+
     .footer-form_input[type="number"]{
         width:  20%;
     }
